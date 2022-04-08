@@ -1,0 +1,10 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+body {
+    background: linear-gradient(to right, rgb(115, 158, 214), rgb(143, 191, 143));
+    margin: 0;
+    padding: 0;
+}
