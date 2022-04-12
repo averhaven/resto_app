@@ -7,5 +7,9 @@ class RestofindTest(TestCase):
         assert resto.address.postal_code == 10829
     
     def test_recommend_resto(self):
-        suggested_resto = recommend_resto(10829)
-        assert suggested_resto.address.postal_code == 10829
+        suggested_resto = recommend_resto(10827)
+        assert suggested_resto[0].address.postal_code == 10827
+
+    def test_recommend_resto_empty_result(self):
+        suggested_resto = recommend_resto(0)
+        assert suggested_resto == []

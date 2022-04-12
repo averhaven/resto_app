@@ -1,0 +1,14 @@
+{% extends "index.html" %}
+
+{% block content %}
+<h2>Suggested Restaurants</h2>
+<div class="restaurants">
+    {% for restaurant in restaurants %}
+    <div class="restaurant">
+        <span>{{ restaurant.name }}</span>
+        <span>{{ restaurant.address.street_name }} {{ restaurant.address.street_number }}</span>
+    </div>
+    <br>
+    {% endfor %}
+</div>
+{% endblock %}

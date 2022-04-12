@@ -3,21 +3,21 @@
         "restaurantName": "Malafemmena",
         "streetName": "Hauptstrase",
         "streetNumber": 85,
-        "postalCode": 12159,
+        "postalCode": "12159",
         "country": "Germany"
     },
     {
         "restaurantName": "Tadka",
         "streetName": "Feurigstrase",
         "streetNumber": 38,
-        "postalCode": 10827,
+        "postalCode": "10827",
         "country": "Germany"
     },
     {
         "restaurantName": "Zola",
         "streetName": "Paul-Lincke-Ufer",
         "streetNumber": 39,
-        "postalCode": 10999,
+        "postalCode": "10999",
         "country": "Germany"
     }
 ]
