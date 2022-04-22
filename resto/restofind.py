@@ -1,57 +1,77 @@
-# first draft of the python code that recommends restaurant based on given postal code
+# first draft of the python code that recommends restaurant based on given postal code using api
 import json
-from flask import Blueprint, render_template, request, url_for, redirect
+import requests
+from flask import Blueprint, render_template, request, url_for, redirect, flash
 
 bp = Blueprint("resto", __name__)
 
 class Restaurant:
-    def __init__(self, restaurant_name, street_name, street_number, postal_code, country):
+    def __init__(self, restaurant_name, restaurant_address):
         """creates the class restaurant with a name and address"""
-        self.address = Address(
-            street_name, street_number, postal_code, country)
         self.name = restaurant_name
+        self.address = restaurant_address
 
+def get_secret_key():
+    with open("secrets_api.json", "r") as fd:
+        data = json.load(fd)
+    return data["SECRET_KEY"]
 
-class Address:
-    def __init__(self, street_name, street_number, postal_code, country):
-        """creates the class address using a street name, number, postal code and country"""
-        self.street_name = street_name
-        self.street_number = street_number
-        self.postal_code = postal_code
-        self.country = country
+#input is a postal code. output is a location. the location is given by calling the geocoding api
+def location_from_postal_code(postal_code):
+    url = "https://maps.googleapis.com/maps/api/geocode/json?"
+    params = {
+        "components":"country:DE|postal_code:{}".format(postal_code),
+        "key":get_secret_key()
+    }
+    response = requests.get(url, params=params)
+    data = response.json()
+    location = data["results"][0]["geometry"]["location"]
+    return location
+
+#input is a location(lat + longitude). output 10 restaurants. calls nearbysearch api
+def resto_from_location(location):
+    url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?"
+    params = {
+        "location": "{},{}".format(location["lat"], location["lng"]),
+        "radius":500,
+        "type":"restaurant",
+        "key":get_secret_key()
+    }
+    response = requests.get(url, params=params)
+    data = response.json()
+    restaurant_data = data["results"][:10]
+    return restaurant_data
 
 
 def recommend_resto(postal_code):
-    """input is a postal code. output is a restaurant in the area of the given postal code.
-    the function first searches a restaurant in the dictionary"""
-    with open("resto/restaurants.json", "r") as fd:
-        data = json.load(fd)
-    resto_list = convert_to_resto(data)
-    result = find_postalcode_in_list(postal_code, resto_list)
-    return result
+    location = location_from_postal_code(postal_code)
+    restaurant_data = resto_from_location(location)
+    restaurants = convert_to_resto(restaurant_data)
+    return restaurants
 
 
-def convert_to_resto(data):
-    resto_list = []
-    for r in data:
-        resto = Restaurant(r["restaurantName"], r["streetName"],
-                           r["streetNumber"], r["postalCode"], r["country"])
-        resto_list.append(resto)
-    return resto_list
+def convert_to_resto(restaurant_data):
+    restaurants = []
+    for r in restaurant_data:
+        resto = Restaurant(r["name"], r["vicinity"])
+        restaurants.append(resto)
+    return restaurants
 
 
-def find_postalcode_in_list(postal_code, resto_list):
-    resto_matching_postal = []
-    for r in resto_list:
-        if postal_code == r.address.postal_code:
-            resto_matching_postal.append(r)
-    return resto_matching_postal
+def validate_german_postal_code(postal_code):
+    if len(postal_code) == 5 and postal_code.isdecimal():
+        return True
+    else:
+        return False
 
 @bp.route("/", methods=['GET','POST'])
 def index():
     if request.method == 'POST':
         postal_code = request.form['postal_code']
-        return redirect(url_for(".postal_code_search", postal_code=postal_code))
+        if not validate_german_postal_code(postal_code):
+            flash("This is not a valid postal code for germany")
+        else:
+            return redirect(url_for(".postal_code_search", postal_code=postal_code))
     return render_template("restofind.html")
 
 @bp.route("/postalcode/<string:postal_code>")

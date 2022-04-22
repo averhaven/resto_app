@@ -16,6 +16,15 @@
         <h1>Resto App</h1>
     </header>
     <section>
+        {% with messages = get_flashed_messages() %}
+        {% if messages %}
+        {% for message in messages %}
+        <div>{{ message }}</div>
+        {% endfor %}
+        {% endif %}
+        {% endwith %}
+    </section>
+    <section>
         {% block content %}{% endblock %}
     </section>
 </body>

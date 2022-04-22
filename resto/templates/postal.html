@@ -6,7 +6,7 @@
     {% for restaurant in restaurants %}
     <div class="restaurant">
         <span>{{ restaurant.name }}</span>
-        <span>{{ restaurant.address.street_name }} {{ restaurant.address.street_number }}</span>
+        <span>{{ restaurant.address }}</span>
     </div>
     <br>
     {% endfor %}

@@ -7,14 +7,6 @@ def client_fixture():
     client = app.test_client()
     return client
 
-def test_hello(client_fixture):
-
-    response = client_fixture.get('/hello')
-
-    assert response.status_code == 200
-
 def test_not_found(client_fixture):
-    
     response = client_fixture.get('/goat')
-    
     assert response.status_code == 404
