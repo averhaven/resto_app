@@ -1,5 +1,5 @@
 from unittest import TestCase
-from resto.restofind import Restaurant, recommend_resto
+from resto.restofind import Restaurant
 
 class RestofindTest(TestCase):
     def test_create_restaurant(self):

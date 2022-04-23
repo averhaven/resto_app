@@ -1,0 +1,1 @@
+from resto.app import create_app

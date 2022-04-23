@@ -1,4 +1,4 @@
-from resto import create_app
+from resto.app import create_app
 import pytest
 
 @pytest.fixture
