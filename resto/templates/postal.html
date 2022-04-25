@@ -1,14 +1,13 @@
 {% extends "index.html" %}
 
 {% block content %}
-<h2>Suggested Restaurants</h2>
-<div class="restaurants">
+<h2 class="section-header">Suggested Restaurants</h2>
+<div>
     {% for restaurant in restaurants %}
-    <div class="restaurant">
-        <span>{{ restaurant.name }}</span>
-        <span>{{ restaurant.address }}</span>
+    <div class="restaurant-row">
+        <span class="restaurant-item restaurant-name">{{ restaurant.name }}</span>
+        <span class="restaurant-item restaurant-address">{{ restaurant.address }}</span>
     </div>
-    <br>
     {% endfor %}
 </div>
 {% endblock %}

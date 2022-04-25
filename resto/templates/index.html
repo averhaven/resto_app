@@ -12,21 +12,29 @@
 </head>
 
 <body>
-    <header>
-        <h1>Resto App</h1>
+    <header class="main-header">
+        <nav class="main-nav">
+            <ul>
+                <a href="{{ url_for('resto.index') }}">HOME</a>
+            </ul>
+        </nav>
+        <h1 class="app-name">Resto App</h1>
     </header>
-    <section>
+    <section class="content-section">
         {% with messages = get_flashed_messages() %}
         {% if messages %}
         {% for message in messages %}
-        <div>{{ message }}</div>
+        <div class="flash-message">{{ message }}</div>
         {% endfor %}
         {% endif %}
         {% endwith %}
     </section>
-    <section>
+    <section class="content-section">
         {% block content %}{% endblock %}
     </section>
+    <footer class="main-footer">
+        <h3 class="app-name">Resto App</h3>
+    </footer>
 </body>
 
 </html>
