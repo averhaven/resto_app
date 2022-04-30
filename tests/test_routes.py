@@ -3,7 +3,7 @@ import pytest
 
 @pytest.fixture
 def client_fixture():
-    app = create_app()
+    app = create_app(env="testing")
     client = app.test_client()
     return client
 

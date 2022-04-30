@@ -1,6 +1,5 @@
-import requests
 from dataclasses import dataclass
-from resto.secret_key import get_secret_key
+from resto.maps_client import get_maps_client
 
 
 """creates the class restaurant with a name and address"""
@@ -12,28 +11,16 @@ class Restaurant:
 #TODO errorhandling
 """input is a postal code. output is a location. the location is given by calling the geocoding api"""
 def location_from_postal_code(postal_code):
-    url = "https://maps.googleapis.com/maps/api/geocode/json?"
-    params = {
-        "components":"country:DE|postal_code:{}".format(postal_code),
-        "key":get_secret_key()
-    }
-    response = requests.get(url, params=params)
-    data = response.json()
+    client = get_maps_client()
+    data = client.geocode(postal_code)
     location = data["results"][0]["geometry"]["location"]
     return location
 
 #TODO errorhandling
 """input is a location(lat + longitude). output 10 restaurants. calls nearbysearch api"""
 def resto_from_location(location):
-    url = "https://maps.googleapis.com/maps/api/place/nearbysearch/json?"
-    params = {
-        "location": "{},{}".format(location["lat"], location["lng"]),
-        "radius":500,
-        "type":"restaurant",
-        "key":get_secret_key()
-    }
-    response = requests.get(url, params=params)
-    data = response.json()
+    client = get_maps_client()
+    data = client.nearby_search(location)
     restaurant_data = data["results"][:10]
     return restaurant_data
 

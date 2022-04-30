@@ -1,0 +1,984 @@
+{
+   "html_attributions" : [],
+   "next_page_token" : "Aap_uEDBJ78bZHNK-0wtlWX5wKf2rFX8pg8rA8Qr02ocCfARagO1OSn4rPC6pg1fZpAeX5cTGbzDGCg-GRJ7OL-GKLfmx1e3Rn50Ej6fhmEWcJ_FyyydPx2oeoX_pjBl3S8rokEBnWRU5fKeTfChUihnuAOXhJ6lgEJcicsHSoW-ropPdOlQHNoAVqnBTkLTZ135N39TzBIKrBuYq1uIgPvIXdZA2_R_epELTdcu93ypba6jO_IsGDijXvkdeeMcCbqk9JOvVChKZ2Zk7UnW11VxOpZuNbUHm0DderKRVmxsMAIv6HovuS3Fp1ztE3FkkDGKEPS05nYAz4C2h_anu4wc0irAmXuL1Ezq9kK8EFooGll_t5I9E4lRskJa8wMzCOEhfq1yCg5BXy_FiOrNHuDweth7Gvg3ZG7k-BWWdjEjjI_m6vYaY7_RxYTq9GVg",
+   "results" : [
+      {
+         "business_status" : "CLOSED_TEMPORARILY",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4815268,
+               "lng" : 13.3572796
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.48304740000001,
+                  "lng" : 13.3580596802915
+               },
+               "southwest" : {
+                  "lat" : 52.47929859999999,
+                  "lng" : 13.3553617197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Gas holder",
+         "permanently_closed" : true,
+         "photos" : [
+            {
+               "height" : 1367,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116128904743355933094\"\u003eGasometer Schöneberg\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEDBEs_SyejfM_JxqJWncBsqMCnQiJYQHCaUuJYZIVT7ti7iicTLWNt6dG8G6M3DQbNhsKKBX9ZU8a2HROL_qd3dMiABgPmNMDVBM6bT38luihiXwnpgcTA8ueV5GXudNbqAslspVmkZ8wLR5fzy_E0mrPcLe5kDbwM3oGOw5TNClow2",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJD0dGMBVQqEcRhPG4wH7exO4",
+         "plus_code" : {
+            "compound_code" : "F9J4+JW Berlin, Germany",
+            "global_code" : "9F4MF9J4+JW"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJD0dGMBVQqEcRhPG4wH7exO4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "tourist_attraction",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 337,
+         "vicinity" : "EUREF-Campus 17, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4798352,
+               "lng" : 13.3604346
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4811789802915,
+                  "lng" : 13.3616893802915
+               },
+               "southwest" : {
+                  "lat" : 52.4784810197085,
+                  "lng" : 13.3589914197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+         "name" : "PapalaCup",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105561820487367744131\"\u003ePapalaCup\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEDVLTFfdp2GSXf1ILp3dALm11ZIOtO1g2XBhIqY9sYjvFAuFFxnICke9Msi-F_MwBw2ajr637em18EEAfrlOeKOljsIaUcm4raAWI0V25s4gwHjf87H8NKT79eui1yoom2rG3MyznoigSPcBG72S11DhqI0oQm3RAyEWThQEhAyv_w",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJgVEdThRQqEcRSOFGvzG1HJY",
+         "plus_code" : {
+            "compound_code" : "F9H6+W5 Berlin, Germany",
+            "global_code" : "9F4MF9H6+W5"
+         },
+         "price_level" : 2,
+         "rating" : 4.7,
+         "reference" : "ChIJgVEdThRQqEcRSOFGvzG1HJY",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 435,
+         "vicinity" : "Gotenstraße 55, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.482231,
+               "lng" : 13.35792
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4835107802915,
+                  "lng" : 13.3590045802915
+               },
+               "southwest" : {
+                  "lat" : 52.4808128197085,
+                  "lng" : 13.3563066197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Restaurant \"Schmiede bei Pino\"",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2160,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/112910740008474067958\"\u003eEric Boge\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uECzlkAas4O83ZKROZqKw9mp_vXMBIPuFRAvaYi086mwSngExS72PF3ki5UOqF4Erka4g94YtYfiVHGTPDKWLepviTkEuwQWdvXWWfUHcFH7F_0xWnKSkHabeo7pDKWolw4lz5B0DDYq5e2aYjU-bXbXLrJYh8RelpAr8AQe1Ygddjjh",
+               "width" : 3840
+            }
+         ],
+         "place_id" : "ChIJPZpvRhVQqEcRejefvEdeDpg",
+         "plus_code" : {
+            "compound_code" : "F9J5+V5 Berlin, Germany",
+            "global_code" : "9F4MF9J5+V5"
+         },
+         "price_level" : 2,
+         "rating" : 4.2,
+         "reference" : "ChIJPZpvRhVQqEcRejefvEdeDpg",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 76,
+         "vicinity" : "EUREF-Campus 15, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.48127419999999,
+               "lng" : 13.3560425
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4826631302915,
+                  "lng" : 13.3573062302915
+               },
+               "southwest" : {
+                  "lat" : 52.4799651697085,
+                  "lng" : 13.3546082697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/cafe-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/cafe_pinlet",
+         "name" : "Restaurant \"Café in the water tower\"",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/117968923824404040299\"\u003eW A\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uECDrxvDwk5Iycaig5T_FMZ4yyNUDRX0GAMcmXKV720TjFSPkxync0TRAxiB-cpvPj7x_XkCmWkiEdKiNHj15KCZXvhmOXQLus4n4w7xYEM0lRe8RBhWIx299J62bksToHyBIWdudUxy-7H2UbzU4Hh59qtdDQRwZL6PX1mj5t0sLY2x",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJFYqP2hRQqEcRtcQBz9Xk_Go",
+         "plus_code" : {
+            "compound_code" : "F9J4+GC Berlin, Germany",
+            "global_code" : "9F4MF9J4+GC"
+         },
+         "price_level" : 2,
+         "rating" : 4.1,
+         "reference" : "ChIJFYqP2hRQqEcRtcQBz9Xk_Go",
+         "scope" : "GOOGLE",
+         "types" : [
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 75,
+         "vicinity" : "EUREF-Campus 18, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4811413,
+               "lng" : 13.3553873
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4824613802915,
+                  "lng" : 13.3568114802915
+               },
+               "southwest" : {
+                  "lat" : 52.4797634197085,
+                  "lng" : 13.3541135197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Restaurant \"Werkstatt\"",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2988,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116552485848610241479\"\u003eOmri Kedem\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uECUwcuq-UBGC8NcMv0uHyOX7bder9SX7mNOTvX-9w40dQdj5PSLHal5Yl0sfrqoSFO_KWpqb-MfvqTyqzAuE5prki41gdIQBWjK3vH2KBvMx0lXTEhjMgSLZO3Eem-c1GelLA7XFrPs0WCbcljQW9EN-uTNpfRKS2MG9x4n29aFo-qC",
+               "width" : 5312
+            }
+         ],
+         "place_id" : "ChIJbzcp12pQqEcRu6-FpGNxEj8",
+         "plus_code" : {
+            "compound_code" : "F9J4+F5 Berlin, Germany",
+            "global_code" : "9F4MF9J4+F5"
+         },
+         "price_level" : 2,
+         "rating" : 4,
+         "reference" : "ChIJbzcp12pQqEcRu6-FpGNxEj8",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 37,
+         "vicinity" : "EUREF-Campus 6, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4801575,
+               "lng" : 13.3549584
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4814606302915,
+                  "lng" : 13.3563295302915
+               },
+               "southwest" : {
+                  "lat" : 52.4787626697085,
+                  "lng" : 13.3536315697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Restaurant \"Reglerhaus\"",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 945,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108810814928177072084\"\u003eEUREF AG\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEAdGleyyJ33gGkB0wTRkzCny8F24wqfeQZsKa8bch4br7uKqN9iNBc8Rx6Y4xpSeuRMv_zK6K9ChlamaYK8QEWJ7GGMK6mD0EpxttFUof2-x9_9-ZjjtjKq_iHIYLsKX_F9tCsX0I16AEoPxN6gLi9qWy-dUE3y4HIzoTj_k_Ma36b6",
+               "width" : 1417
+            }
+         ],
+         "place_id" : "ChIJlXBHMGtQqEcRGEue7ZExpLc",
+         "plus_code" : {
+            "compound_code" : "F9J3+3X Berlin, Germany",
+            "global_code" : "9F4MF9J3+3X"
+         },
+         "rating" : 4.9,
+         "reference" : "ChIJlXBHMGtQqEcRGEue7ZExpLc",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 9,
+         "vicinity" : "EUREF-Campus 25, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4818448,
+               "lng" : 13.3640401
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4833689802915,
+                  "lng" : 13.3652744302915
+               },
+               "southwest" : {
+                  "lat" : 52.4806710197085,
+                  "lng" : 13.3625764697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "East61 Indoor Beachvolleyball",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1538,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114493117232505580753\"\u003eEast61 Indoor Beachvolleyball\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEBduhPyT6hBqIEA2UDgeNlvrccszTbMQc6b9v1KVIjIlrwjstZNU1-XXyxxzH95nhnbcCtW-4Uwlhh8F0MYuyoHd7JECBoMrW_xyaI-Fkh0NWkA6yCl4C_sRg-WhR0jhC8WnsE1l5CKGKZak-vCoWpExe12ZM4sFtMKlKRIrJkmDwK4",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJo2vb4hVQqEcR5hIbKmQn_58",
+         "plus_code" : {
+            "compound_code" : "F9J7+PJ Berlin, Germany",
+            "global_code" : "9F4MF9J7+PJ"
+         },
+         "rating" : 4.4,
+         "reference" : "ChIJo2vb4hVQqEcR5hIbKmQn_58",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 465,
+         "vicinity" : "Wilhelm-Kabus-Straße 42, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4814336,
+               "lng" : 13.3655482
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4827443802915,
+                  "lng" : 13.3669613802915
+               },
+               "southwest" : {
+                  "lat" : 52.4800464197085,
+                  "lng" : 13.3642634197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "NAUMANNKÜCHE",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 1367,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114121997284369951328\"\u003eNAUMANNKÜCHE\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uED-pRhN2VFNplbQV1o9ey0u8KJofxiuoxqvN3pChUOiv8_ZVKl8b9bWqaCNe0vWrcX1Y2jtV1AWK7KYqLo5fgxIBz4UJdc7almAMjTWaHB-k0uA95RezI9BltjrFlWVUWrzD3dp0up3-ps0rARIUjwYMrGMeC8ThgJroA0k5eI1vvDZ",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJg_jVFhZQqEcRhVN7RwXvpqM",
+         "plus_code" : {
+            "compound_code" : "F9J8+H6 Berlin, Germany",
+            "global_code" : "9F4MF9J8+H6"
+         },
+         "price_level" : 1,
+         "rating" : 4.5,
+         "reference" : "ChIJg_jVFhZQqEcRhVN7RwXvpqM",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 153,
+         "vicinity" : "Wilhelm-Kabus-Straße 36/Haus 10, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.48389769999999,
+               "lng" : 13.3616435
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4852455302915,
+                  "lng" : 13.3628983302915
+               },
+               "southwest" : {
+                  "lat" : 52.4825475697085,
+                  "lng" : 13.3602003697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Pizzeria Mario Berlin",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1920,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100461539017825853572\"\u003eIna Reuter\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEDyKOzBehPt_4mRb9q8ZsA-xQp8UNL5al-ZE_zdvof3ZsHY0Rt9cvixTGvVfWjDX-0rpgLIz0Z77elSZDyrrxFlK3AXpK8VgH79ryMxrzKfHvGAAzyvQxZuRdQ6iG-NcfrymetqBZ5QITPGadB29qkjRVw_pbQxZhhSsHsgdc7K_c4h",
+               "width" : 1080
+            }
+         ],
+         "place_id" : "ChIJgQmPMz5QqEcRRS7UMhNaJbE",
+         "plus_code" : {
+            "compound_code" : "F9M6+HM Berlin, Germany",
+            "global_code" : "9F4MF9M6+HM"
+         },
+         "rating" : 4,
+         "reference" : "ChIJgQmPMz5QqEcRRS7UMhNaJbE",
+         "scope" : "GOOGLE",
+         "types" : [
+            "meal_delivery",
+            "meal_takeaway",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+         ],
+         "user_ratings_total" : 57,
+         "vicinity" : "Leberstraße 25, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.478649,
+               "lng" : 13.3550713
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4801438302915,
+                  "lng" : 13.3562498302915
+               },
+               "southwest" : {
+                  "lat" : 52.4774458697085,
+                  "lng" : 13.3535518697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/gas_station-71.png",
+         "icon_background_color" : "#909CE1",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/gas_pinlet",
+         "name" : "Shell",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 2213,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114126850897525430181\"\u003eTorsten Hackradt\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEAhX6yrxKcdXbn1-bVNm4iiQJzrqvdSg2Nbh6oaD6bubxYDGzEclA3whvh60b_wQq9jTZ9wRNVUnlJ4Tas_19vHvF36HvTxvX-nen2h2jkYMJr9gCoA9vvLI-Wsn3jgDfv6cNjDuJnZxvJdZ2DR71h2SEGOkuGIpfsKETC3Rw7470bT",
+               "width" : 3236
+            }
+         ],
+         "place_id" : "ChIJycTArBRQqEcRbVNynqJL360",
+         "plus_code" : {
+            "compound_code" : "F9H4+F2 Berlin, Germany",
+            "global_code" : "9F4MF9H4+F2"
+         },
+         "price_level" : 2,
+         "rating" : 3.9,
+         "reference" : "ChIJycTArBRQqEcRbVNynqJL360",
+         "scope" : "GOOGLE",
+         "types" : [
+            "gas_station",
+            "atm",
+            "car_wash",
+            "convenience_store",
+            "bakery",
+            "finance",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 153,
+         "vicinity" : "Sachsendamm 90-92, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4821987,
+               "lng" : 13.3579314
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4834946302915,
+                  "lng" : 13.3590102802915
+               },
+               "southwest" : {
+                  "lat" : 52.4807966697085,
+                  "lng" : 13.3563123197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Schmiede am Gasometer (EUREF) - Eventlocation und Restaurant",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3456,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/118369091525967240767\"\u003eTadeas Rusnok\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEAgog4Q_M_crqD6ET6EgKkql3jNf30uUveuHaADyhUYuaQxyShDJZoYkUsU3XmQVsTz7H_6fvciaVTgIHfWQB2Kqs7ImYzmRaSn-AVkDstv7ZionS29mYH4v04_qSOYL8YZnzhzGdTgTd3-0sjtOGl33fNYRYmGC5zqKPZlXsswcHZ-",
+               "width" : 4608
+            }
+         ],
+         "place_id" : "ChIJQye7RxVQqEcRag2LScqjPk4",
+         "plus_code" : {
+            "compound_code" : "F9J5+V5 Berlin, Germany",
+            "global_code" : "9F4MF9J5+V5"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJQye7RxVQqEcRag2LScqjPk4",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 6,
+         "vicinity" : "Torgauer Straße 12, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4811381,
+               "lng" : 13.3599505
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.48248688029151,
+                  "lng" : 13.3614461302915
+               },
+               "southwest" : {
+                  "lat" : 52.47978891970851,
+                  "lng" : 13.3587481697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Pizzeria Trattoria Café LuNa",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/111353085948864286591\"\u003ePizzeria Trattoria Café LuNa\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEAHlkAhotW-LcNXm03G-m-IHXVlAk6tZ9uqRMNEHEqOuVV4f9dyXtm3qsRHo8D3-wGwnRnMVK7aacAJ-xt1bzf1S9_EL0YWtVYpYb5kmpwimbxR3D7PRjCwAp09exHJoyZ2ZNk6JpqZ45nhbbgV0KFSaQAlaGdqzdyJQy-pRwCSxZI",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJMUo29nxRqEcRtauRmIzgssw",
+         "plus_code" : {
+            "compound_code" : "F9J5+FX Berlin, Germany",
+            "global_code" : "9F4MF9J5+FX"
+         },
+         "price_level" : 2,
+         "rating" : 4.4,
+         "reference" : "ChIJMUo29nxRqEcRtauRmIzgssw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 410,
+         "vicinity" : "Gotenstraße 18, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4817686,
+               "lng" : 13.3616787
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4830717302915,
+                  "lng" : 13.3628958802915
+               },
+               "southwest" : {
+                  "lat" : 52.4803737697085,
+                  "lng" : 13.3601979197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Château KAPUTT",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2736,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114133033429250090819\"\u003eO.A.\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEBHqlYY3X5HfkLf-p8CzK0Wl_57DPLi-98J1EOiVusKlqBzSkmeELamM9nAOQ9vCvtsO-Ql3nis64-Wfsk9ajdVxMVd-wL6lmub_BgzGI61yhFEg27kTtgHDxJDjjAnxHiWAqmYTxxYHIV6DagKwLHnTrbajt7eZrE1y8BbUPbyf11w",
+               "width" : 3648
+            }
+         ],
+         "place_id" : "ChIJq2m1HQ1RqEcRqpNUf9JBATw",
+         "plus_code" : {
+            "compound_code" : "F9J6+PM Berlin, Germany",
+            "global_code" : "9F4MF9J6+PM"
+         },
+         "rating" : 4.6,
+         "reference" : "ChIJq2m1HQ1RqEcRqpNUf9JBATw",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 16,
+         "vicinity" : "Leberstraße 57, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.48091429999999,
+               "lng" : 13.3566829
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4823668302915,
+                  "lng" : 13.3581509802915
+               },
+               "southwest" : {
+                  "lat" : 52.4796688697085,
+                  "lng" : 13.3554530197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Restaurant \"GRÜNS\"",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 4006,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105593897622872477508\"\u003eRestaurant &quot;GRÜNS&quot;\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEBJjU3sD3yUiF-Ssq9-TQX_Jy5URhfdPdBw143eBMpeXE0lNz_UwNIhlNReqaQiYoyNz1Vsf_tLnYiZxHZlRdDVOj7427aVgEaBIHG_9Dmz-L1XMOOMKbqVN070twZy0T-hs55mpEwyYC633xeJM2jGhsjN4Mg0hlyGt9M7GXqPGo9J",
+               "width" : 6001
+            }
+         ],
+         "place_id" : "ChIJu-8KztpRqEcRkc2aIXxVnJo",
+         "plus_code" : {
+            "compound_code" : "F9J4+9M Berlin, Germany",
+            "global_code" : "9F4MF9J4+9M"
+         },
+         "rating" : 4,
+         "reference" : "ChIJu-8KztpRqEcRkc2aIXxVnJo",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 14,
+         "vicinity" : "EUREF-Campus 22, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.48150529999999,
+               "lng" : 13.3632623
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.48285988029149,
+                  "lng" : 13.3647190802915
+               },
+               "southwest" : {
+                  "lat" : 52.4801619197085,
+                  "lng" : 13.36202111970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Ihr Familiäres Bistro",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "place_id" : "ChIJtwAz5hVQqEcRMyypPGl3DnQ",
+         "plus_code" : {
+            "compound_code" : "F9J7+J8 Berlin, Germany",
+            "global_code" : "9F4MF9J7+J8"
+         },
+         "reference" : "ChIJtwAz5hVQqEcRMyypPGl3DnQ",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "vicinity" : "Naumannstraße 48, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.480234,
+               "lng" : 13.3555006
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.48154648029151,
+                  "lng" : 13.3568672302915
+               },
+               "southwest" : {
+                  "lat" : 52.47884851970851,
+                  "lng" : 13.3541692697085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "\"the CORD\" Restaurant",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116770599253982299498\"\u003eRalph Naderson\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEAdCBMubHdQqWqfVP0TmAm-9h3GF7YgBaLqtzGtBa47XO4QRsxg9JGe2qSCLnbKAk5bsepW4mLt4I4PiiB329OcLxHTluEZEwl-74tuUF2R2jgN9VWdZRovuObTm9N8H1vKxr_HrHSWpxtqUtPrGaeAQpC6qMgJeCVnHH_oCUW1rlmD",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJ7wcougBRqEcRsSPp4pEws4c",
+         "plus_code" : {
+            "compound_code" : "F9J4+36 Berlin, Germany",
+            "global_code" : "9F4MF9J4+36"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJ7wcougBRqEcRsSPp4pEws4c",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 38,
+         "vicinity" : "EUREF-Campus 23-24, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4828,
+               "lng" : 13.357466
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4841196302915,
+                  "lng" : 13.3588738802915
+               },
+               "southwest" : {
+                  "lat" : 52.4814216697085,
+                  "lng" : 13.35617591970849
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/generic_business-71.png",
+         "icon_background_color" : "#7B9EB0",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/generic_pinlet",
+         "name" : "Restaurant: \"Bamboo Bay\"",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 1365,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/115779731046359844200\"\u003eRestaurant: &quot;Bamboo Bay&quot;\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uECHFXBuG3meRYx2j-kE_qK637ErXWXbJQex4zbHqr33UmEYq1kfGTkmTUaoaq1hwXjH6pxzSYwuBFBx9BSU2RYz0YuV7-q9gWJbpeX_SXV52NCqGnIDeCvSJl871ckd-pcz061GgLviHZepnFb1qc8yMM2i0OQlNVQCrdJtB0NyBfCw",
+               "width" : 2048
+            }
+         ],
+         "place_id" : "ChIJEYA6UhVQqEcRh7FFRchXZLE",
+         "plus_code" : {
+            "compound_code" : "F9M4+4X Berlin, Germany",
+            "global_code" : "9F4MF9M4+4X"
+         },
+         "rating" : 4.2,
+         "reference" : "ChIJEYA6UhVQqEcRh7FFRchXZLE",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 17,
+         "vicinity" : "Torgauer Straße 12, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.483016,
+               "lng" : 13.3616409
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.48436193029149,
+                  "lng" : 13.3628908802915
+               },
+               "southwest" : {
+                  "lat" : 52.48166396970849,
+                  "lng" : 13.3601929197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Pauls Küche",
+         "opening_hours" : {
+            "open_now" : false
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/103010924704974469982\"\u003ePauls Küche TOGO\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEBIEMaBqrzr1n4e3YyWTNofmKUzPeEYWc38KCVer5pxJqt52Jwzoc2xLbmEKZ-D0rKDM1tviprve8xD1kjKWpPamFpRhCX0nWeDQJTpFxh9Zn4YKmpKDcSnAGLe7mfuQxYw6qAHvR1kQ1bkLEsaUBmHB4d3Bpn_ahp0qLvS8fJ1bNJi",
+               "width" : 2449
+            }
+         ],
+         "place_id" : "ChIJw5iFdlhRqEcR-HU1O3Q4zMM",
+         "plus_code" : {
+            "compound_code" : "F9M6+6M Berlin, Germany",
+            "global_code" : "9F4MF9M6+6M"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJw5iFdlhRqEcR-HU1O3Q4zMM",
+         "scope" : "GOOGLE",
+         "types" : [ "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 91,
+         "vicinity" : "Leberstraße 35, Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4811552,
+               "lng" : 13.365461
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.48250418029151,
+                  "lng" : 13.3668099802915
+               },
+               "southwest" : {
+                  "lat" : 52.47980621970851,
+                  "lng" : 13.3641120197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/bar-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/bar_pinlet",
+         "name" : "Naumann Biergarten",
+         "photos" : [
+            {
+               "height" : 2287,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114133033429250090819\"\u003eO.A.\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEC8nevvJWlkWfthWbvKvrvW5Ovh15UmX2wEZhiBOlhnH-X89dFHb-gpgJWQ4WVCsgxuODavsQGcvToODvMltPjVm9u0Slq01v8XLmzeU-D0rBoQQpSw-3GYWFbjFTgVILo8-uq7IBbLgCFzwW9a3fkCWg0OCmxcpx-zq8BP6iwv7LcL",
+               "width" : 3230
+            }
+         ],
+         "place_id" : "ChIJ5297Ix5RqEcR31XpCqNfw4g",
+         "plus_code" : {
+            "compound_code" : "F9J8+F5 Berlin, Germany",
+            "global_code" : "9F4MF9J8+F5"
+         },
+         "rating" : 4.3,
+         "reference" : "ChIJ5297Ix5RqEcR31XpCqNfw4g",
+         "scope" : "GOOGLE",
+         "types" : [ "bar", "restaurant", "food", "point_of_interest", "establishment" ],
+         "user_ratings_total" : 8,
+         "vicinity" : "Berlin"
+      },
+      {
+         "business_status" : "OPERATIONAL",
+         "geometry" : {
+            "location" : {
+               "lat" : 52.4800408,
+               "lng" : 13.3538805
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 52.4813408302915,
+                  "lng" : 13.3552475802915
+               },
+               "southwest" : {
+                  "lat" : 52.4786428697085,
+                  "lng" : 13.3525496197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+         "icon_background_color" : "#FF9E67",
+         "icon_mask_base_uri" : "https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+         "name" : "Gorilla Bäckerei",
+         "opening_hours" : {
+            "open_now" : true
+         },
+         "photos" : [
+            {
+               "height" : 3840,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/105242762792045944733\"\u003eGorilla Bäckerei\u003c/a\u003e"
+               ],
+               "photo_reference" : "Aap_uEBkgzoLoZb4c5N9qCHHJFhmXBdZH7vQFM2UX0uCK-A-oe0Czf74hTTOVXdZbtxI3gVdfmb1PPKkXn57m6ap1D-jp6pS8g2XMmQz6_DBevfAx8GaZiTzzPX30sLY5VSkzqZgyc0ws9jLW1MxNvaeA17TBUlJxOg7T194oUifBVt_KC68",
+               "width" : 5760
+            }
+         ],
+         "place_id" : "ChIJvYHk0ZBRqEcRewp8rsboeO4",
+         "plus_code" : {
+            "compound_code" : "F9J3+2H Berlin, Germany",
+            "global_code" : "9F4MF9J3+2H"
+         },
+         "rating" : 4.8,
+         "reference" : "ChIJvYHk0ZBRqEcRewp8rsboeO4",
+         "scope" : "GOOGLE",
+         "types" : [
+            "bakery",
+            "cafe",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "store",
+            "establishment"
+         ],
+         "user_ratings_total" : 30,
+         "vicinity" : "EUREF Campus 1, Berlin"
+      }
+   ],
+   "status" : "OK"
+}
