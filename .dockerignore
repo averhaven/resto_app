@@ -1,0 +1,11 @@
+secrets_api.json
+
+venv
+
+secrets/
+
+__pycache__/
+
+.coverage
+
+.pytest_cache/

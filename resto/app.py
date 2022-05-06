@@ -1,8 +1,7 @@
 """This module contains creation of the flask app."""
 
-from flask import Flask, g
-from resto import routes, maps_client
-from resto.secret_key import get_secret_key
+from flask import Flask
+from resto import routes
 
 def create_app(env="production"):
     app = Flask(__name__)
