@@ -30,7 +30,7 @@ jobs:
       - name: Test with pytest
         run: |
           PYTHONPATH=. pytest
-  build:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
