@@ -11,4 +11,4 @@ COPY . .
 
 ENV  FLASK_APP=resto
 
-CMD python3 -m flask run --host=0.0.0.0 --port=$PORT
+CMD python3 -m flask run --host=0.0.0.0
